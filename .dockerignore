@@ -1,0 +1,40 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Virtual environments (critical: never ship the host venv)
+.venv
+venv
+env
+
+# Python build/runtime artifacts
+__pycache__
+.pytest_cache
+*.py[cod]
+*.egg-info
+build
+dist
+wheels
+
+# Tool caches
+.pytest_cache
+.ruff_cache
+.mypy_cache
+.ty_cache
+
+# Editor / IDE
+.idea
+.vscode
+*.swp
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+*.local.*
+
+# Docker itself
+.dockerignore
+**/Dockerfile
+
