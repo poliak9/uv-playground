@@ -11,6 +11,3 @@ pta-consumer = "pta_consumer.main:main"
 requires = ["uv_build>=0.11,<0.13"]
 build-backend = "uv_build"
 
-[tool.uv.sources]
-pta-shared = { workspace = true }
-

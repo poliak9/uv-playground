@@ -1,6 +1,5 @@
-from fp_studio.namer import hemlo_actually
+from fp_studio import namer
 
 
 def test_hemlo_actually():
-    assert hemlo_actually("pepe") == "hemlo pepe"
-
+    assert namer.hemlo_actually("pepe") == "hemlo pepe"

@@ -1,6 +1,6 @@
 from pta_shared.utils import jenkins
 
-from pta_consumer.formatter import format_greeting
+from .formatter import format_greeting
 
 
 def main():
@@ -10,4 +10,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
