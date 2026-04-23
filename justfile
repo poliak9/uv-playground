@@ -1,6 +1,6 @@
 set shell := ["bash", "-euo", "pipefail", "-c"]
 
-packages := "apps/fp-studio apps/pta-consumer packages/pta-shared"
+packages := "apps/* packages/*"
 
 # list available recipes
 default:

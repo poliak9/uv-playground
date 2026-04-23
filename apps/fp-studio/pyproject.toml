@@ -12,8 +12,6 @@ dependencies = [
 requires = ["uv_build>=0.11,<0.13"]
 build-backend = "uv_build"
 
-[tool.deptry]
-extend_exclude = [".*/tests"]
 
 [tool.deptry.per_rule_ignores]
 DEP002 = ["gunicorn"]
